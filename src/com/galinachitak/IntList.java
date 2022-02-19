@@ -11,7 +11,7 @@ public interface IntList {
 
     int[] toArray();
 
-    int remove (int index);
+    int remove(int index);
 
     int addElement(int value);
 

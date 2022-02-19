@@ -13,10 +13,7 @@ public class IntArrayList implements IntList {
         System.arraycopy(array, 0, resultArray, 0, resultArray.length - 1);
         resultArray[resultArray.length - 1] = value;
         array = resultArray;
-
-
     }
-
 
     @Override
     public int get(int index) {
@@ -61,7 +58,6 @@ public class IntArrayList implements IntList {
     }
 
 
-
     @Override
     public String toString() {
         return "IntArrayList{" +
@@ -69,3 +65,4 @@ public class IntArrayList implements IntList {
                 '}';
     }
 }
+

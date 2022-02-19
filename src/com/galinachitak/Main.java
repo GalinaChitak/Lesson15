@@ -28,14 +28,14 @@ public class Main {
         System.out.println(list);
         list.set(2, 12);
         list.set(3, 45);
-        System.out.println( Arrays.toString(list.toArray()));
+        System.out.println(Arrays.toString(list.toArray()));
         bubbleSort(list);
         System.out.println("bubbleSort " + list);
         list.remove(1);
 
-        System.out.println("удалить 2 елемент"+list);
+        System.out.println("удалить 2 елемент" + list);
         list.addElement(22);
-        System.out.println("добавить число 22"+list);
+        System.out.println("добавить число 22" + list);
     }
 
     private static void bubbleSort(IntList array) {
@@ -56,7 +56,7 @@ public class Main {
         array.set(first, array.get(second));
         array.set(second, temp);
     }
-    }
+}
 
 
 
